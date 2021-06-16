@@ -16,3 +16,8 @@ curl --location --request GET 'http://localhost:8082/Base.wz/zmap.img.xml'
 ## BUG
 
 * 第一次转化文件时，会出现 No found，可能是文件的读写的异步造成的。
+
+
+## 感谢
+
+这里的工作都是基于：https://github.com/diamondo25/webstory 这个项目进行的，感谢作者的付出。

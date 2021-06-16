@@ -9,3 +9,10 @@ curl --location --request GET 'http://localhost:8082/Base.wz/zmap.img.xml'
 ```
 
 获取 json 数据。
+
+## feature
+* dockerfile 自动打包
+
+## BUG
+
+* 第一次转化文件时，会出现 No found，可能是文件的读写的异步造成的。
